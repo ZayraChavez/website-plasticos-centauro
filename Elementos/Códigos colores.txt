@@ -1,0 +1,4 @@
+Amarillo fondo #ffc709
+Azul fondo #004c83
+azul hover menu #0098ae
+Rojo redes sociales ef4056
