@@ -74,8 +74,10 @@ Typography
 /* * Addresses font sizes and margins set differently in IE 6/7.
 * Addresses font sizes within `section` and `article` in Firefox 4+, Safari 5, * and Chrome. */
 h1 {
+	font-family: "Bemio";
 	font-size: 2em;
 	margin: 0.67em 0;
+	color: #ffc709;
  }
  
 h2 {
@@ -413,13 +415,10 @@ a {
 	 }
  
 p {
-	text-align: center;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-align: left;
 	font-size: 14px;
-	color: #848789;
-	font-weight: 300;
-	word-spacing: 2px;
-	line-height: 1.8em;
-	margin-top: 25px;
+	color: #ffffff;
  }
  
 	p.text-intro {font-size: 18px;}
@@ -440,12 +439,13 @@ nav {
  }
  
 .logo-holder {
-	background: url(../img/logo-plasticos-centauro.png) no-repeat center center;
-    width: 182px;
-    height: 182px;
-    position: fixed;
+	/*background: url(../img/logo-plasticos-centauro.png) no-repeat center center;*/
+  /*  width: 182px;
+    height: 182px;*/
+    position: absolute;
     top: 0;
-    left: 570px;
+    left: 494px;
+    z-index: 100;
  }
  
 .responsive-logo {display: hidden;}
@@ -465,12 +465,12 @@ header {background-color: #ffc709;}
 				font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 				font-size: 20px;
 				display: block;
-				margin: 0 65px 0 65px;
+				margin: 0 60px 0 60px;
 				color: #ffffff;
 				
 			 }
  
-.r_spacer {margin-right: 180px;}
+.r_spacer {margin-right: 245px;}
  
 .intro {
 	padding: 115px 0;
@@ -801,15 +801,6 @@ a.close-overlay {
  
 section.sign_up {padding: 40px 0 110px 0;}
  
-footer {
-	background-color: #f7f7f7;
-	padding: 100px 0;
- }
- 
-	footer p {
-		font-size: 13px;
-		margin: 0;
-	 }
  
 .footer-leftcol p {text-align: left;}
  
@@ -879,6 +870,14 @@ footer {
 	background-color: #004c83;
 	border-bottom: 2px white solid;
 	border-radius: 0 0 10px 10px;
+	border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
 }
- 
- 
+
+/*mision vision*/
+.background-mision-vision{
+	background-color: #004c83;
+	border-radius: 10px;
+
+}
+
