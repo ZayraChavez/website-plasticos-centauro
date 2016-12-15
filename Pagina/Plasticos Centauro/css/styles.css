@@ -75,9 +75,11 @@ Typography
 * Addresses font sizes within `section` and `article` in Firefox 4+, Safari 5, * and Chrome. */
 h1 {
 	font-family: "Bemio";
-	font-size: 2em;
-	margin: 0.67em 0;
-	color: #ffc709;
+    font-size: 35px;
+    /* margin: 0.67em 0; */
+    color: #ffc709;
+    letter-spacing: 2px;
+    margin-bottom: 0px !important;
  }
  
 h2 {
@@ -122,8 +124,6 @@ mark {
 	color: #000;
  }
  
-/* * Addresses margins set differently in IE 6/7. */
-p, pre {margin: 1em 0;}
  
 /* * Corrects font family set oddly in IE 6, Safari 4/5, and Chrome. */
 code, kbd, pre, samp {
@@ -879,6 +879,14 @@ section.sign_up {padding: 40px 0 110px 0;}
 	background-color: #004c83;
 	border-radius: 10px;
 
+}
+
+.padding-nosotros{
+	padding-left: 50px;
+	padding-right: 50px;
+}
+.top-vision{
+	margin-top: 0px !important;
 }
 
 
