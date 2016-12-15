@@ -410,7 +410,7 @@ a {
  }
  
 	a:hover {
-		color: #64c29e;
+		color: #0098ae;
 		text-decoration: none;
 	 }
  
@@ -872,6 +872,29 @@ section.sign_up {padding: 40px 0 110px 0;}
 	border-radius: 0 0 10px 10px;
 	border-bottom-left-radius: 10%;
     border-bottom-right-radius: 10%;
+    z-index: 1;
+	position: absolute;
+	top: 0;
+    left: 90px;
+}
+
+.background-menu2{
+	background-color: #004c83;
+	border-bottom: 2px white solid;
+	border-radius: 0 0 10px 10px;
+	border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    z-index: 1;
+	position: absolute;
+	top: 0;
+	left: 98px !important;
+}
+
+.background-blanco{
+	background-color: white;
+	width: 1170px;
+	height: 101px;
+	
 }
 
 /*mision vision*/
@@ -985,3 +1008,23 @@ section.sign_up {padding: 40px 0 110px 0;}
 	border-color: #fff;
 }
 /*Finaliza style carrusel*/
+
+/*footer*/
+
+.top-logo{
+	margin-top: 3%;
+}
+.icons{
+	position: relative;
+    bottom: -27px;
+}
+.icons-left{
+	margin-left: 8%;
+}
+.icon-pasta{
+	margin-left: 8%;
+}
+.border-footer{
+	background-color: #004c83;
+    border-radius: 10px 10px 0 0;
+}
