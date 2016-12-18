@@ -93,8 +93,10 @@ h3 {
  }
  
 h4 {
+	font-family: "Bemio";
 	font-size: 1em;
-	margin: 1.33em 0;
+	color: #ffc709;
+	margin: 9% -13px 0 0;
  }
  
 h5 {
@@ -896,6 +898,9 @@ section.sign_up {padding: 40px 0 110px 0;}
 	height: 101px;
 	
 }
+.active{
+	color: #0098ae;
+}
 
 /*mision vision*/
 .background-mision-vision{
@@ -914,7 +919,7 @@ section.sign_up {padding: 40px 0 110px 0;}
 
 
 /* Carousel Styles */
-.carousel-indicators .active {
+.carousel-indicators .active-markers {
     background-color: #C74F50;
 }
 
@@ -1033,4 +1038,37 @@ section.sign_up {padding: 40px 0 110px 0;}
 :-moz-placeholder { /* Firefox 18- */
   color: #004A80 !important;
   font-weight: bold;
+}
+/*sucursales*/
+.background-sucursales-principal{
+	background-color: #004c83;
+}
+.background-sucursales{
+	background-color: #004c83;
+}
+.p-margin{
+	margin: 0 0 0 0 !important;
+	color: white;
+}
+.sucursales-hr{
+	margin-top: 10px !important;
+    margin-bottom: 5px !important;
+    border: 0 !important;
+    border-top: 1px solid #eee !important;
+}
+.padding-sucursales{
+	padding: 0 !important;
+}
+.a-color{
+	color: #ffc709;
+}
+.fa{
+	padding-right: 5%;
+}
+
+/*productos*/
+.back-blue{
+	background-color: #004c83;
+	border-radius: 10px;
+
 }
