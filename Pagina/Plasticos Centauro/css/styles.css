@@ -188,6 +188,7 @@ Embedded content
 * 2. Improves image quality when scaled in IE 7. */
 img {
 	border: 0; /* 1 */
+	margin: 0;
 	-ms-interpolation-mode: bicubic; /* 2 */
  }
  
@@ -870,7 +871,7 @@ section.sign_up {padding: 40px 0 110px 0;}
 
 .background-menu{
 	background-color: #004c83;
-	border-bottom: 2px white solid;
+	/*border-bottom: 2px white solid;*/
 	border-radius: 0 0 10px 10px;
 	border-bottom-left-radius: 10%;
     border-bottom-right-radius: 10%;
@@ -893,7 +894,25 @@ section.sign_up {padding: 40px 0 110px 0;}
 }
 
 .background-blanco{
-	background-color: white;
+	background-image: url('../img/hover1.jpg');
+	width: 1170px;
+	height: 101px;
+	
+}
+.background-blanco-productos{
+	background-image: url('../img/hover2.jpg');
+	width: 1170px;
+	height: 101px;
+	
+}
+.background-blanco-sucursales{
+	background-image: url('../img/hover3.jpg');
+	width: 1170px;
+	height: 101px;
+	
+}
+.background-blanco-contacto{
+	background-image: url('../img/hover4.jpg');
 	width: 1170px;
 	height: 101px;
 	
@@ -1071,4 +1090,29 @@ section.sign_up {padding: 40px 0 110px 0;}
 	background-color: #004c83;
 	border-radius: 10px;
 
+}
+.img-display{
+	display: inline-block;
+}
+.p-prodctos{
+	font-size: 14px;
+    margin: 0;
+    padding: 0;
+    padding-top: 3%;
+}
+.background-text-pro{
+	height: 36px;
+	background-color: #004c83;
+}
+.border-termico{
+	border-radius: 0 0 0 10px;
+}
+.border-termico2{
+	border-radius: 10px 0 0 0;
+}
+.border-especias{
+	border-radius: 0 0 10px 0;
+}
+.border-especias2{
+	border-radius: 0 10px 0 0;
 }
