@@ -391,6 +391,10 @@ User Styles
 	font-family: "Bemio";
 	src: url(../fonts/Bemio.otf);
 }
+@font-face{
+	font-family: "Helvetica";
+	src: url(../fonts/Helvetica.ttf);
+}
  
 .clearfix:before, .clearfix:after {
 	content: " ";
@@ -418,8 +422,8 @@ a {
 	 }
  
 p {
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-	text-align: left;
+	font-family: "Helvetica";
+	text-align: justify;
 	font-size: 14px;
 	color: #ffffff;
  }
@@ -465,7 +469,7 @@ header {background-color: #ffc709;}
 		 }
  
 			header ul li a {
-				font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+				font-family: "Helvetica";
 				font-size: 20px;
 				display: block;
 				margin: 0 60px 0 60px;
@@ -939,7 +943,7 @@ section.sign_up {padding: 40px 0 110px 0;}
 
 /* Carousel Styles */
 .carousel-indicators .active-markers {
-    background-color: #C74F50;
+   /* background-color: #C74F50;*/
 }
 
 .carousel-inner img {
@@ -997,12 +1001,17 @@ section.sign_up {padding: 40px 0 110px 0;}
 }
 
 /*footer*/
+.img-footer-facebook{
+	width:30px !important; 
+	margin-bottom: 7% !important;
+	float: right !important;
+}
 
 .top-logo{
-	margin-top: 3%;
+	margin-top: 5%;
 }
 .top-logo-letras{
-	margin-top: 5%;
+	margin-top: 4%;
 }
 .icons{
 	position: relative;
@@ -1020,14 +1029,16 @@ section.sign_up {padding: 40px 0 110px 0;}
 }
 
 .texto-footer-plasticos{
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: "Helvetica";
 	color: #FFC700;
 	font-size: 18px;
 	line-height: 12px;
+	float: right;
 
 }
 .texto-footer-pasta{
 	font-size: 16px;
+	font-family: "Helvetica";
 }
 .titulo-contactanos{
 	color: #004A80;
@@ -1115,4 +1126,17 @@ section.sign_up {padding: 40px 0 110px 0;}
 }
 .border-especias2{
 	border-radius: 0 10px 0 0;
+}
+
+/*Contacto*/
+.texto-contacto-plasticos{
+	font-size: 18px;
+	color: #004A80;
+}
+.facebook-contacto{
+	float: right;
+	width: 15%;
+}
+.texto-campos-contacto{
+	font-family: "Helvetica";
 }

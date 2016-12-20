@@ -52,7 +52,7 @@
 		<br>
 		<br>
 		<div class="container">
-		<br>
+			<br>
 			<div class="row">
 				<div class="col-md-5 text-center">
 					<img src="img/avatar-plasticos-centauro.png" alt="avatar-plasticos-centauro">
@@ -64,77 +64,94 @@
 					<form  name="sentMessage" id="contactForm" action="contacto.php" method="post" novalidate>
 						<div class="row control-group">
 							<div class="form-group col-md-12 floating-label-form-group controls">
-								<input type="text" class="form-control" placeholder="NOMBRE:" id="nombre" name="nombre" required data-validation-required-message="Por favor ingrese su nombre.">
+								<input type="text" class="form-control texto-campos-contacto" placeholder="NOMBRE:" id="nombre" name="nombre" required data-validation-required-message="Por favor ingrese su nombre.">
 								<p class="help-block text-danger"></p>
 							</div>
 						</div>
 						<div class="row control-group">
 							<div class="form-group col-md-12 floating-label-form-group controls">
-								<input name="email" type="email" class="form-control" placeholder="CORREO ELECTRÓNICO:" id="email" required data-validation-required-message="Por favor ingrese su E-mail.">
+								<input name="correo" type="email" class="form-control texto-campos-contacto" placeholder="CORREO ELECTRÓNICO:" id="email" required data-validation-required-message="Por favor ingrese su E-mail.">
 								<p class="help-block text-danger"></p>
 							</div>
 						</div>
 						<div class="row control-group">
 							<div class="form-group col-md-12 floating-label-form-group controls">
-								<input name="telefono" type="number" class="form-control" placeholder="TELÉFONO" id="telefono" required data-validation-required-message="Por favor ingrese su E-mail.">
+								<input name="telefono" type="number" class="form-control texto-campos-contacto" placeholder="TELÉFONO" id="telefono" required data-validation-required-message="Por favor ingrese su E-mail.">
 								<p class="help-block text-danger"></p>
 							</div>
 						</div>
 						<div class="row control-group">
 							<div class="form-group col-md-12 floating-label-form-group controls">
-								<textarea name="mensaje" rows="5" class="form-control" placeholder="MENSAJE:" id="mensaje" required data-validation-required-message="Por favor ingrese su mensaje."></textarea>
+								<textarea name="mensaje" rows="5" class="form-control texto-campos-contacto" placeholder="MENSAJE:" id="mensaje" required data-validation-required-message="Por favor ingrese su mensaje."></textarea>
 								<p class="help-block text-danger"></p>
 							</div>
 						</div>
-					
+
 						<div id="success"></div>
 						<div class="row">
 							<div class="form-group col-md-12 text-center">
 								<input id="submit" name="submit" type="submit" class="btn btn-success btn-lg  color-boton-enviar" value="Enviar" />
-								<a href="https://www.facebook.com/grupoplasticoscentauro/?fref=ts"><img src="img/facebook-plasticos-centauro-azul.png" alt="Facebook Plásticos Centauro" width="50px"></a>
+								
 							</div>
 						</div>
 					</form>
+					<div class="row">
+						<div class="col-md-4">
+							<p class="texto-contacto-plasticos" >Tel. 618 811 4848</p>
+						</div>
+						<div class="col-md-4">
+
+							<p class="texto-contacto-plasticos" >plasticos_centauro@hotmail.com</p>
+						</div>
+						<div class="col-md-4">
+							<a href="https://www.facebook.com/grupoplasticoscentauro/?fref=ts"><img class="facebook-contacto" src="img/facebook-plasticos-centauro-azul.png" alt="Facebook Plásticos Centauro" ></a>
+						</div>
+
+
+					</div>
+					
 				</div>
 			</div>
 		</div>
 		<br>
 		<footer class="footer">
-         <div class="container border-footer">
-            <div class="row">
-               <div class="col-md-4">
-                  <ul class="list-inline icons-left">
-                     <li class="spacer-li icons"><a href="https://www.youtube.com/channel/UC2_hnm3Ek7pe2udLr8-RVog"><img style="width:40px !important;" src="img/youtube-pasta-laboratorio.png"></a></li>
-                     <li class="spacer-li icons"><a href="https://www.facebook.com/PastaLabCreativo/?fref=ts" ><img style="width:40px;" src="img/facebook-pasta-lab.png"></a></li>
-                     <li class="spacer-li icons"><a href="https://www.instagram.com/pasta.laboratorio/" ><img style="width:40px;" src="img/instagram-pasta-laboratorio.png"></a></li>
-                     <li class="spacer-li icon-pasta">
-                        <a href="http://pastalaboratorio.com " >
-                           <img class="" src="img/logo-pasta-blanco.png" >
-                        </li>
-                     </ul>
-                     <p class="texto-footer-pasta" >Diseñado por:  Pasta Laboratorio Creativo 2016</p>
-                  </div>
-                  <div class="col-md-3"></div>
-                  <div class="col-md-2 top-logo">
-                     <ul class="list-inline">
-                        <li class="spacer-li "><a href="https://www.facebook.com/grupoplasticoscentauro/?fref=ts"><img style="width:40px !important;" src="img/facebook-plasticos-cenrtauro.png"></a></li>
-                     </ul>
-                     <p class="texto-footer-plasticos" >Tel. 618 4 84 88 11</p>
-                     <p class="texto-footer-plasticos" >contacto@correo.com</p>
-                  </div>
-                  <div class="col-md-3 top-logo-letras">
-                     <a href="#" ><img class="" src="img/letras-grupo-plasticos-centauro.png" >
-                     </div>
-                  </div>
-               </div>
-            </footer>
-				<!-- jQuery (necessary for Bootstrap's JavaScript plugins)-->
-				<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-				<!-- Include all compiled plugins (below), or include individual files as needed -->
-				<script src="js/bootstrap.min.js"></script>
-				<script src="js/jquery.flexslider.js"></script>
-				<script src="js/scripts.js"></script>
-				<script src="js/modernizr.js"></script>
-				<script src="js/waypoints.min.js"></script>
-			</body>
-			</html>
+			<div class="container border-footer">
+				<div class="row">
+					<div class="col-md-4">
+						<ul class="list-inline icons-left">
+							<li class="spacer-li icons"><a href="https://www.youtube.com/channel/UC2_hnm3Ek7pe2udLr8-RVog"><img style="width:30px !important;" src="img/youtube-pasta-laboratorio.png"></a></li>
+							<li class="spacer-li icons"><a href="https://www.facebook.com/PastaLabCreativo/?fref=ts" ><img style="width:30px;" src="img/facebook-pasta-lab.png"></a></li>
+							<li class="spacer-li icons"><a href="https://www.instagram.com/pasta.laboratorio/" ><img style="width:30px;" src="img/instagram-pasta-laboratorio.png"></a></li>
+							<li class="spacer-li icon-pasta">
+								<a href="http://pastalaboratorio.com " >
+									<img style="width:60px;" src="img/logo-pasta-blanco.png" >
+								</li>
+							</ul>
+							<p class="texto-footer-pasta" >Diseñado por:  Pasta Laboratorio Creativo 2016</p>
+						</div>
+						<div class="col-md-3"></div>
+						<div class="col-md-2 top-logo">
+
+							<a  href="https://www.facebook.com/grupoplasticoscentauro/?fref=ts" >
+								<img class="img-footer-facebook"  src="img/facebook-plasticos-centauro.png"></a>
+								<br>
+
+								<p class="texto-footer-plasticos" >Tel. 618 811 4848</p>
+								<p class="texto-footer-plasticos" >plasticos_centauro@hotmail.com</p>
+							</div>
+							<div class="col-md-3 top-logo-letras">
+								<a href="plasticoscentaurodgo.com" ><img src="img/letras-grupo-plasticos-centauro.png" alt="Logo Plasticos Centauro" >
+								</div>
+							</div>
+						</div>
+					</footer>
+					<!-- jQuery (necessary for Bootstrap's JavaScript plugins)-->
+					<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+					<!-- Include all compiled plugins (below), or include individual files as needed -->
+					<script src="js/bootstrap.min.js"></script>
+					<script src="js/jquery.flexslider.js"></script>
+					<script src="js/scripts.js"></script>
+					<script src="js/modernizr.js"></script>
+					<script src="js/waypoints.min.js"></script>
+				</body>
+				</html>

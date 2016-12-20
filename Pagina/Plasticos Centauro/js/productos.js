@@ -15,7 +15,7 @@ $( document ).ready(function() {
     $("#img-bolsas").hover(function() {
     document.getElementById('img-bolsas').src="img/Bolsas-Vertical-Hover.jpg";
     }, function() {
-    document.getElementById('img-bolsas').src="img/Bolsas-Vertical.png";
+    document.getElementById('img-bolsas').src="img/Bolsas-Vertical.jpg";
     });
     //saborizantes
     $("#img-saborizantes").hover(function() {

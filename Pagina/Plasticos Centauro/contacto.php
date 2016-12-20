@@ -1,25 +1,20 @@
 <?php
 $nombre = $_POST['nombre'];
-$email = $_POST['email'];
-$email = $_POST['telefono'];
+$email = $_POST['correo'];
+$telefono = $_POST['telefono'];
 $mensaje = $_POST['mensaje'];
-
-
-
-
-$para = 'zayra.chavez@hotmail.com';
-$titulo = 'Sitio Web Plásticos Centauro';
+$para = 'zayrachavez@hotmail.com';
+$titulo = 'Mensaje enviado desde la pagina web de Plasticos Centauros';
 $header = 'From: ' . $email;
-$msjCorreo = "Nombre: $nombre\n Correo Electrónico: $email\n Teléfono: $telefono\n Mensaje: $mensaje";
-
+$msjCorreo = "Nombre: $nombre\n E-Mail: $email\n Telefono: $telefono\n Mensaje:\n $mensaje";
 if ($_POST['submit']) {
 if (mail($para, $titulo, $msjCorreo, $header)) {
 echo "<script language='javascript'>
 alert('Mensaje enviado, muchas gracias.');
-window.location.href = 'http://newbie.com.mx';
+window.location.href = 'http://plasticoscentaurodgo.com/';
 </script>";
 } else {
-echo 'Fall¨® el envio';
+echo 'Fallo el envio';
 }
 }
 ?>
