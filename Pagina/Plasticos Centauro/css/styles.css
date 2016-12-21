@@ -883,25 +883,9 @@ section.sign_up {padding: 40px 0 110px 0;}
 	top: 0;	
 	width: 86.8%;
 }
-@media (max-width:1200px){
-    .background-menu {
-        left: 90px;
-    }
-}
 
-@media (min-width:1367px){
-    .background-menu {
-    background-color: #004c83;
-	border-radius: 0 0 10px 10px;
-	border-bottom-left-radius: 10%;
-    border-bottom-right-radius: 10%;
-    z-index: 1;
-	position: absolute;
-	top: 0;	
-    left: 376px;
-	width: 60.9%;
-    }
-}
+
+
 .background-menu2{
 	background-color: #004c83;
 	border-bottom: 2px white solid;
@@ -925,32 +909,7 @@ section.sign_up {padding: 40px 0 110px 0;}
 	width: 1170px;
 	height: 101px;
 }
-@media screen and (max-width:640px) {
-    .background-blanco-productos{
-        display: none;
-    }
-    .background-blanco{
-		display: none;
-	}
-	.background-blanco-sucursales{
-	display: none;
-	}
-.background-blanco-contacto{
-	display: none;
-	}
-	.background-menu {
-    background-color: #004c83;
-    border-radius: 0 0 10px 10px;
-     border-bottom-left-radius: 10%; 
-     border-bottom-right-radius: 10%; 
-     z-index: 0; 
-     position: initial; 
-    top: 0;
-    width: 100%;
-    left: 0;
-    margin-bottom: 10px;
-}
-}
+
 .background-blanco-sucursales{
 	background-image: url('../img/hover3.jpg');
 	width: 1170px;
@@ -1173,11 +1132,7 @@ section.sign_up {padding: 40px 0 110px 0;}
 .border-especias2{
 	border-radius: 0 10px 0 0;
 }
-@media screen and (max-width:640px) {
-	#desktop{
-		display: none;
-	}
-}
+
 /*Contacto*/
 .texto-contacto-plasticos{
 	font-size: 18px;
