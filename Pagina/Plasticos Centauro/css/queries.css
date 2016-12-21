@@ -7,6 +7,16 @@ CSS Queries
     .background-blanco{
         display: none;
     }
+
+        /*Contacto*/
+    .titulo-contactanos{
+    font-size: 24px;   
+}
+.vasito-plasticos-centauro{
+width: 25%;
+    margin-top: -18%;
+}
+
 }
 @media screen and (max-width:1200px) {
     p{font-size: 14px; }
