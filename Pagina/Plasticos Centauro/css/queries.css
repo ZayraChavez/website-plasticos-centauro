@@ -214,6 +214,7 @@ nav ul li.dot { display: none; }
     nav ul { display: none; height: auto; }
     .pullcontainer { width: 100%; text-align: right; padding: 20px 20px 0 0; }
     .pullcontainer a#pull { display: block; width: 100%; color: #242a2c; }
+<<<<<<< Updated upstream
     .background-menu {
     background-color: #004c83;
     border-radius: 0 0 10px 10px;
@@ -259,4 +260,6 @@ nav ul li.dot { display: none; }
     left: 376px;
     width: 60.9%;
     }
+=======
+>>>>>>> Stashed changes
 }

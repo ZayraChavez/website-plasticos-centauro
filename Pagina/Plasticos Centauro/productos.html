@@ -9,12 +9,13 @@
 	<link rel="icon" type="img/png" href="img/favicon-plasticos-centauro.png" />
 
 	<!-- Bootstrap -->
-	<link href="css/bootstrap.min.css" rel="stylesheet">
+	 <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
 	<link href="css/styles.css?v=1.2" rel="stylesheet">
 	<link href="css/queries.css?v=1.2" rel="stylesheet">
 	<link rel="stylesheet" href="css/flexslider.css?v=1.2" type="text/css">
 	<link rel="stylesheet" href="css/animate.css" type="text/css">
 	<link href="css/font-awesome.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/carrusel.css">
 	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 		<!--[if lt IE 9]>
@@ -51,7 +52,98 @@
          </div>
       </header>
 		<br>
-		<div class="container">
+		<!-- mobile begins -->
+		<div id="mobile">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12">
+						<h1 class="titulo-contactanos">Productos</h1>
+					</div>
+					 <div class="col-xs-12">
+      <div class="carousel slide multi-item-carousel" id="theCarousel">
+        <div class="carousel-inner">
+          <div class="item active">
+            <div class="col-xs-4 nopadding-menu"><a href="#1"><img src="img/Domos-Vertical-Hover.jpg" class="img-responsive"></a></div>
+          </div>
+          <div class="item">
+            <div class="col-xs-4 nopadding-menu"><a href="#1"><img src="img/Domos-Vertical-Hover.jpg" class="img-responsive"></a></div>
+          </div>
+          <div class="item">
+            <div class="col-xs-4 nopadding-menu"><a href="#1"><img src="img/Domos-Vertical-Hover.jpg" class="img-responsive"></a></div>
+          </div>
+          <div class="item">
+            <div class="col-xs-4 nopadding-menu"><a href="#1"><img src="img/Domos-Vertical-Hover.jpg" class="img-responsive"></a></div>
+          </div>
+          <div class="item">
+            <div class="col-xs-4 nopadding-menu"><a href="#1"><img src="img/Domos-Vertical-Hover.jpg" class="img-responsive"></a></div>
+          </div>
+          <div class="item">
+            <div class="col-xs-4 nopadding-menu"><a href="#1"><img src="img/Domos-Vertical-Hover.jpg" class="img-responsive"></a></div>
+          </div>
+        </div>
+        <a class="left carousel-control" href="#theCarousel" data-slide="prev"><i class="glyphicon glyphicon-chevron-left"></i></a>
+        <a class="right carousel-control" href="#theCarousel" data-slide="next"><i class="glyphicon glyphicon-chevron-right"></i></a>
+      </div>
+    </div>
+
+				</div>
+			</div>
+			<br>	
+
+			<div class="container back-blue">
+				<div class="row">
+					<div class="col-xs-4">
+						<img src="img/reyma-patrocinadores.png" class="img-responsive" style="padding:8px;">
+					</div>
+					<div class="col-xs-4">
+						<img src="img/Deiman.png" class="img-responsive">
+					</div>
+					<div class="col-xs-4">
+						<img src="img/Fantasy.png" class="img-responsive">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-4">
+						<img src="img/Michel.png" class="img-responsive">
+					</div>
+					<div class="col-xs-4">
+						<img src="img/Premier.png" class="img-responsive">
+					</div>
+					<div class="col-xs-4">
+						<img src="img/Jaguar.png" class="img-responsive">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-6">
+						<img src="img/Cimaplas.png" class="img-responsive">
+					</div>
+					<div class="col-xs-6">
+						<img src="img/Dart.png" class="img-responsive">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-4">
+						<img src="img/PlasticosH.png" class="img-responsive">
+					</div>
+					<div class="col-xs-4">
+						<img src="img/Inix.png" class="img-responsive">
+					</div>
+					<div class="col-xs-4">
+						<img src="img/Anguiplast.png" class="img-responsive">
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- End mobile -->
+
+
+		<!-- tablet begins -->
+
+		<div id="tablet" class="container"></div>
+
+		<!-- End tablet -->
+
+		<div id="desktop" class="container">
 			<div class="row">
 				<div class="col-md-2 nopadding">
 					<img id="img-termico" src="img/termicos.jpg" class="img-responsive img-display border-termico2">
@@ -92,7 +184,7 @@
 			</div>
 		</div>
 		<br>
-		<div class="container back-blue">
+		<div id="desktop2" class="container back-blue">
 			<div class="row">
 				<div class="col-md-2">
 					<img src="img/reyma-patrocinadores.png" class="img-responsive" style="padding:8px;">
@@ -165,14 +257,40 @@
                </div>
             </footer>
 			<!-- jQuery (necessary for Bootstrap's JavaScript plugins)-->
-			<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-			<!-- Include all compiled plugins (below), or include individual files as needed -->
-			<script src="js/bootstrap.min.js"></script>
+	  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
+<script src='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js'></script>
 			<script src="js/jquery.flexslider.js"></script>
             <script src="js/scripts.js"></script>
-            <script src="js/modernizr.js"></script>
-            <script src="js/waypoints.min.js"></script>
 			<!-- script para cargar hover de imagenes -->
 			<script src="js/productos.js"></script>
+			<script src="js/carrusel3.js"></script>
+			 <script>
+               $('.carousel').carousel({
+                interval: 3000
+             });
+
+               if (screen.width < 500) {
+               		$("#mobile").css("display","block");
+               		$("#tablet").css("display","none");
+               		$("#desktop").css("display","none");
+               		$("#desktop2").css("display","none");
+               }
+                else if (screen.width < 1200) {
+     				$("#mobile").css("display","none");
+               		$("#tablet").css("display","block");
+               		$("#desktop").css("display","none");
+               		$("#desktop2").css("display","none");
+   				}
+   				else {
+   					$("#mobile").css("display","none");
+               		$("#tablet").css("display","none");
+               		$("#desktop").css("display","block");
+               		$("#desktop2").css("display","block");
+   				}
+
+   				$(window).bind('resize', function() {
+    			 location.reload();
+				});
+          </script>
 		</body>
 		</html>
