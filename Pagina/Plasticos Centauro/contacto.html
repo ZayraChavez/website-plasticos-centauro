@@ -25,7 +25,7 @@
 	<body>
 		<header class="espacio-header">
          <div class="container nopadding-menu">
-         <div class="background-blanco"></div>
+         <div class="background-blanco-contacto"></div>
          <div class="background-menu menu-mobile">
             <div class="row  menu-mobile6">
                <div class="responsive-logo"></div>
@@ -39,10 +39,10 @@
                      <!-- <div class="logo-holder"></div> -->
                      <img class="logo-holder" src="img/logo-plasticos-centauro.png" width="182" height="182">
                      <ul>
-                        <li class="active"><a class="active" href="index.html">Inicio</a></li>
+                        <li><a href="index.html">Inicio</a></li>
                         <li><a href="productos.html" class="r_spacer">Productos</a></li>
                         <li><a href="sucursales.html">Sucursales</a></li>
-                        <li><a href="contacto.html">Contacto</a></li>
+                        <li class="active"><a class="active" href="contacto.html">Contacto</a></li>
                      </ul>
                   </nav>
                </div>
@@ -126,6 +126,7 @@
                      <li class="spacer-li icon-pasta">
                         <a href="http://pastalaboratorio.com " >
                            <img style="width:60px;" src="img/logo-pasta-blanco.png" >
+                        </a>
                         </li>
                      </ul>
                      <p class="texto-footer-pasta" >Diseñado por:  Pasta Laboratorio Creativo 2016</p>
@@ -141,18 +142,22 @@
                      <p class="texto-footer-plasticos" >plasticos_centauro@hotmail.com</p>
                   </div>
                   <div class="col-md-3 top-logo-letras">
-                     <a href="plasticoscentaurodgo.com" ><img src="img/letras-grupo-plasticos-centauro.png" alt="Logo Plasticos Centauro" >
+                     <img src="img/letras-grupo-plasticos-centauro.png" alt="Logo Plasticos Centauro" >
                      </div>
                   </div>
                </div>
             </footer>
 				<!-- jQuery (necessary for Bootstrap's JavaScript plugins)-->
-				<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-				<!-- Include all compiled plugins (below), or include individual files as needed -->
-				<script src="js/bootstrap.min.js"></script>
+				<script src='js/jquery.min.js'></script>
+				<script src='js/bootstrap.min.js'></script>
 				<script src="js/jquery.flexslider.js"></script>
 				<script src="js/scripts.js"></script>
 				<script src="js/modernizr.js"></script>
 				<script src="js/waypoints.min.js"></script>
+				<script>
+				$(window).bind('resize', function() {
+    			 location.reload();
+				});
+				</script>
 				</body>
 				</html>

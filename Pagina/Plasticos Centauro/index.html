@@ -8,7 +8,7 @@
    <title>Grupo Plásticos Centauro | Portada</title>
    <link rel="icon" type="img/png" href="img/favicon-plasticos-centauro.png" />
    <!-- Bootstrap -->
-     <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
+   <link href="css/bootstrap.min.css" rel="stylesheet">
    <link href="css/styles.css?v=1.2" rel="stylesheet">
    <link href="css/queries.css?v=1.2" rel="stylesheet">
    <link rel="stylesheet" href="css/flexslider.css?v=1.2" type="text/css">
@@ -100,7 +100,7 @@
          <div class="row">
             <div class="col-md-6 padding-nosotros">
                <h1 class="text-center">¿Quiénes somos?</h1>
-               <p>Somos una empresa 100% duranguense dedicada a la distribución de plásticos desechables, bolsas de camiseta, bolsa de alta y baja densidad, especias, cereales, productos para fiestas  alimento para perros, entre muchas mas, todo al mejor precio. Contamos con una amplia variedad de productos y con la mejor atención y calidad.  Un respaldo de más de 25 años de experiencia. contamos con servicio a domicilio y rutas foráneas. También 7 sucursales en todo Durango, para tu mayor comodidad. 
+               <p>Somos una empresa 100% duranguense dedicada a la distribución de plásticos desechables, bolsas de camiseta, bolsa de alta y baja densidad, especias, cereales, productos para fiestas, alimento para perros, entre muchas más, todo al mejor precio. Contamos con una amplia variedad de productos y con la mejor atención y calidad. Un respaldo de más de 25 años de experiencia. contamos con servicio a domicilio y rutas foráneas. También 7 sucursales en todo Durango, para tu mayor comodidad. 
                </p>
             </div>
             <div class="col-md-6 padding-nosotros">
@@ -123,6 +123,7 @@
                      <li class="spacer-li icon-pasta">
                         <a href="http://pastalaboratorio.com " >
                            <img style="width:60px;" src="img/logo-pasta-blanco.png" >
+                        </a>
                         </li>
                      </ul>
                      <p class="texto-footer-pasta" >Diseñado por:  Pasta Laboratorio Creativo 2016</p>
@@ -138,15 +139,14 @@
                      <p class="texto-footer-plasticos" >plasticos_centauro@hotmail.com</p>
                   </div>
                   <div class="col-md-3 top-logo-letras">
-                     <a href="plasticoscentaurodgo.com" ><img src="img/letras-grupo-plasticos-centauro.png" alt="Logo Plasticos Centauro" >
+                     <img src="img/letras-grupo-plasticos-centauro.png" alt="Logo Plasticos Centauro" >
                      </div>
                   </div>
                </div>
             </footer>
             <!-- jQuery (necessary for Bootstrap's JavaScript plugins)-->
-                 <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
-<script src='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js'></script>
-
+            <script src='js/jquery.min.js'></script>
+            <script src='js/bootstrap.min.js'></script>
             <script src="js/jquery.flexslider.js"></script>
             <script src="js/scripts.js"></script>
             <script src="js/modernizr.js"></script>
@@ -162,6 +162,9 @@
                $('.carousel-control.right').click(function() {
                 $('#myCarousel').carousel('next');
              });
+               $(window).bind('resize', function() {
+             location.reload();
+            });
           </script>
        </body>
        </html>
