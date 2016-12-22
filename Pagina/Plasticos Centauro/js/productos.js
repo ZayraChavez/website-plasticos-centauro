@@ -35,4 +35,50 @@ $( document ).ready(function() {
     }, function() {
     document.getElementById('img-especias').src="img/Especias-Vertical.jpg";
     });
+
+    // Animaciones de tablet
+    // termico
+    $("#img-termico").click(function(){
+        $('#horizontal-termicos').fadeOut(100, function() {
+        $('#horizontal-termicos').attr("src","img/Termico-Horizontal-Hover.png");
+        $('#horizontal-termicos').fadeIn(100);
+    });
+    });
+    //plasticos
+    $("#img-plastico").click(function(){
+        $('#horizontal-plasticos').fadeOut(100, function() {
+        $('#horizontal-plasticos').attr("src","img/Plastico-Horizontal-Hover.png");
+        $('#horizontal-plasticos').fadeIn(100);
+    });
+    });
+    //bolsas
+    $("#img-bolsas").click(function(){
+        $('#horizontal-bolsas').fadeOut(100, function() {
+        $('#horizontal-bolsas').attr("src","img/Bolsas-Horizontal-Hover.png");
+        $('#horizontal-bolsas').fadeIn(100);
+    });
+    });
+    //saborizantes
+    $("#img-saborizantes").click(function(){
+        $('#horizontal-saborizantes').fadeOut(100, function() {
+        $('#horizontal-saborizantes').attr("src","img/Saborizantes-Horizontal-Hover.png");
+        $('#horizontal-saborizantes').fadeIn(100);
+    });
+    });
+    //domos
+    $("#img-domos").click(function(){
+        $('#horizontal-domos').fadeOut(100, function() {
+        $('#horizontal-domos').attr("src","img/Domos-Horizontal-Hover.png");
+        $('#horizontal-domos').fadeIn(100);
+    });
+    });
+    //especias
+    $("#img-especias").click(function(){
+        $('#horizontal-especias').fadeOut(100, function() {
+        $('#horizontal-especias').attr("src","img/Especias-Horizontal-Hover.png");
+        $('#horizontal-especias').fadeIn(100);
+    });
+    });
+
+
 });

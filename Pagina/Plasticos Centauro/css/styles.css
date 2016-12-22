@@ -100,8 +100,10 @@ h4 {
  }
  
 h5 {
-	font-size: 0.83em;
-	margin: 1.67em 0;
+	font-family: "Bemio";
+	font-size: 1.2em;
+	color: #ffc709;
+	display: inline-block;
  }
  
 h6 {
@@ -1048,6 +1050,12 @@ section.sign_up {padding: 40px 0 110px 0;}
 	font-family: "Bemio";
 	text-align: center;
 }
+.titulo-contactanos-tablet{
+	color: #004A80;
+	font-size: 48px;
+	font-family: "Bemio";
+	text-align: center;
+}
 
 .color-boton-enviar
 {
@@ -1088,6 +1096,20 @@ section.sign_up {padding: 40px 0 110px 0;}
     border: 0 !important;
     border-top: 1px solid #eee !important;
 }
+.sucursales-hr-tablet-matriz{
+	margin-top: 10px !important;
+    margin-bottom: 5px !important;
+    border: 0 !important;
+    border-top: 1px solid #eee !important;
+    width: 20%;
+}
+.sucursales-hr-tablet{
+	margin-top: 10px !important;
+    margin-bottom: 5px !important;
+    border: 0 !important;
+    border-top: 1px solid #eee !important;
+    width: 40%;
+}
 .padding-sucursales{
 	padding: 0 !important;
 }
@@ -1097,12 +1119,45 @@ section.sign_up {padding: 40px 0 110px 0;}
 .fa{
 	padding-right: 5%;
 }
-
+.fa2 {
+    padding-right: 1% !important;
+    color: #ffc709;
+}
+.p-tablet{
+	margin: 0 0 1px !important;
+}
 /*productos*/
 .back-blue{
 	background-color: #004c83;
 	border-radius: 10px;
-
+}
+.back-blue-tablet{
+	background-color: #004c83;
+	height: 116.375px;
+}
+.back-blue-tablet-termico{
+	background-color: #004c83;
+    border-radius: 10px 0 0 0;
+	height: 116.375px;
+}
+.back-blue-tablet-especias{
+	background-color: #004c83;
+    border-radius: 0 0 0 10px;
+	height: 116.375px;
+}
+.margin-productos-left{
+	margin-left: 0px;
+}
+.p-padding-top{
+	    padding-top: 25% !important;
+}
+.back-white{
+	z-index: 1;
+	position: absolute;
+	background-color: #ffffff;
+	border-radius: 0 10px 10px 0;
+	height: 116.375px;
+	width: 115%;
 }
 .img-display{
 	display: inline-block;
@@ -1112,6 +1167,18 @@ section.sign_up {padding: 40px 0 110px 0;}
     margin: 0;
     padding: 0;
     padding-top: 3%;
+}
+.p-prodctos2{
+	font-size: 18px;
+    margin: 0;
+    padding: 0;
+    padding-top: 3%;
+}
+.texto-arrow{
+	font-size: 20px;
+    margin: 0;
+    color: #ffc709;
+    padding-top: 70% !important;
 }
 .background-text-pro{
 	height: 36px;

@@ -25,6 +25,7 @@ CSS Queries
         text-align: center;
 
     }
+<<<<<<< Updated upstream
     .facebook-contacto {
    display: none;
 }
@@ -47,6 +48,11 @@ CSS Queries
     float: none !important;
     margin: 0 auto !important;
 }
+=======
+    h5{
+        font-size: 1em;
+    }
+>>>>>>> Stashed changes
 }
 
 
@@ -82,12 +88,18 @@ CSS Queries
         text-align: center;
 
     }
+<<<<<<< Updated upstream
     .img-footer-facebook {
     width: 30px !important;
     margin-bottom: 7% !important;
     float: none !important;
     margin: 0 auto !important;
 }
+=======
+     h5{
+        font-size: 1em;
+    }
+>>>>>>> Stashed changes
 }
 
 @media screen and (max-width:668px) {
@@ -102,6 +114,9 @@ CSS Queries
     /*Contacto*/
     .titulo-contactanos{
         font-size: 24px;   
+    }
+    .titulo-contactanos-tablet{
+        font-size: 44px;   
     }
     .vasito-plasticos-centauro{
         width: 25%;
@@ -264,7 +279,11 @@ CSS Queries
 .background-blanco-sucursales {
     display: none;
 }
+<<<<<<< Updated upstream
 .background-blanco-contacto {
+=======
+.background-blanco-productos {
+>>>>>>> Stashed changes
     display: none;
 }
 .background-menu {

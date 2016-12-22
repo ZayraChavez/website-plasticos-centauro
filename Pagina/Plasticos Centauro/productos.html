@@ -139,7 +139,144 @@
 
 		<!-- tablet begins -->
 
-		<div id="tablet" class="container"></div>
+		<div id="tablet" class="container">
+			<div class="row">
+				<div class="col-sm-12 nopadding">
+					<h1 class="titulo-contactanos-tablet">Productos</h1>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-3 nopadding">
+					<div class="back-blue-tablet-termico">
+						<p class="text-center p-prodctos2 p-padding-top">Térmico</p>
+					</div>
+				</div>
+				<div class="col-sm-1 nopadding">
+					<div id="img-termico" class="back-white">
+						<p class="text-center texto-arrow">></p>
+					</div>
+				</div>
+				<div class="col-sm-8 nopadding">
+					<img id="horizontal-termicos" class="img-responsive margin-productos-left" src="img/Termicos-Horizontal.png">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-3 nopadding">
+					<div class="back-blue-tablet">
+						<p class="text-center p-prodctos2 p-padding-top">Plástico</p>
+					</div>
+				</div>
+				<div class="col-sm-1 nopadding">
+					<div id="img-plastico" class="back-white">
+						<p class="text-center texto-arrow">></p>
+					</div>
+				</div>
+				<div class="col-sm-8 nopadding">
+					<img id="horizontal-plasticos" class="img-responsive margin-productos-left" src="img/Plastico-Horizontal.png">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-3 nopadding">
+					<div class="back-blue-tablet">
+						<p class="text-center p-prodctos2 p-padding-top">Bolsas</p>
+					</div>
+				</div>
+				<div class="col-sm-1 nopadding">
+					<div id="img-bolsas" class="back-white">
+						<p class="text-center texto-arrow">></p>
+					</div>
+				</div>
+				<div class="col-sm-8 nopadding">
+					<img id="horizontal-bolsas" class="img-responsive margin-productos-left" src="img/Bolsas-Horizontal.png">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-3 nopadding">
+					<div class="back-blue-tablet">
+						<p class="text-center p-prodctos2 p-padding-top">Saborizantes y Concentrado</p>
+					</div>
+				</div>
+				<div class="col-sm-1 nopadding">
+					<div id="img-saborizantes" class="back-white">
+						<p class="text-center texto-arrow">></p>
+					</div>
+				</div>
+				<div class="col-sm-8 nopadding">
+					<img id="horizontal-saborizantes" class="img-responsive margin-productos-left" src="img/Saborizantes-Horizontal.png">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-3 nopadding">
+					<div class="back-blue-tablet">
+						<p class="text-center p-prodctos2 p-padding-top">Domos</p>
+					</div>
+				</div>
+				<div class="col-sm-1 nopadding">
+					<div id="img-domos" class="back-white">
+						<p class="text-center texto-arrow">></p>
+					</div>
+				</div>
+				<div class="col-sm-8 nopadding">
+					<img id="horizontal-domos" class="img-responsive margin-productos-left" src="img/Domos-Horizontal.png">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-3 nopadding">
+					<div class="back-blue-tablet-especias">
+						<p class="text-center p-prodctos2 p-padding-top">Especias y Cereales</p>
+					</div>
+				</div>
+				<div class="col-sm-1 nopadding">
+					<div id="img-especias" class="back-white">
+						<p class="text-center texto-arrow">></p>
+					</div>
+				</div>
+				<div class="col-sm-8 nopadding">
+					<img id="horizontal-especias" class="img-responsive margin-productos-left" src="img/Especias-Horizontal.png">
+				</div>
+			</div>
+		</div>
+		<br>
+		<div id="tablet2" class="container back-blue">
+			<div class="row">
+				<div class="col-sm-2">
+					<img src="img/reyma-patrocinadores.png" class="img-responsive" style="padding:8px;">
+				</div>
+				<div class="col-sm-2">
+					<img src="img/Deiman.png" class="img-responsive">
+				</div>
+				<div class="col-sm-2">
+					<img src="img/Fantasy.png" class="img-responsive">
+				</div>
+				<div class="col-sm-2">
+					<img src="img/Cimaplas.png" class="img-responsive">
+				</div>
+				<div class="col-sm-2">
+					<img src="img/Premier.png" class="img-responsive">
+				</div>
+				<div class="col-sm-2">
+					<img src="img/Jaguar.png" class="img-responsive">
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-sm-2 col-sm-offset-1">
+				<img src="img/Inix.png" class="img-responsive">
+				</div>
+				<div class="col-sm-2">
+					<img src="img/Dart.png" class="img-responsive">
+				</div>
+				<div class="col-sm-2">
+					<img src="img/Anguiplast.png" class="img-responsive">
+				</div>
+				<div class="col-sm-2">
+					<img src="img/Michel.png" class="img-responsive">
+				</div>
+				<div class="col-sm-2">
+					<img src="img/PlasticosH.png" class="img-responsive">
+				</div>
+			</div>
+		</div>
 
 		<!-- End tablet -->
 
@@ -279,24 +416,10 @@
 					interval: 3000
 				});
 
-				if (screen.width < 500) {
-					$("#mobile").css("display","block");
+               		$("#tablet2").css("display","none");
 					$("#tablet").css("display","none");
-					$("#desktop").css("display","none");
-					$("#desktop2").css("display","none");
-				}
-				else if (screen.width < 1200) {
-					$("#mobile").css("display","none");
-					$("#tablet").css("display","block");
-					$("#desktop").css("display","none");
-					$("#desktop2").css("display","none");
-				}
-				else {
-					$("#mobile").css("display","none");
-					$("#tablet").css("display","none");
-					$("#desktop").css("display","block");
-					$("#desktop2").css("display","block");
-				}
+               		$("#tablet2").css("display","block");
+               		$("#tablet2").css("display","none");
 
 				$(window).bind('resize', function() {
 					location.reload();
