@@ -426,6 +426,7 @@ p {
 	text-align: justify;
 	font-size: 14px;
 	color: #ffffff;
+	font-weight: 100;
  }
  
 	p.text-intro {font-size: 18px;}

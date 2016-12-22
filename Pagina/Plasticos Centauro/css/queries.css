@@ -22,41 +22,52 @@ CSS Queries
     .menu-mobile{
         margin-bottom: -17%;
     }
+    .texto-contacto-plasticos{
+        text-align: center;
 
-
+    }
 }
 
+
 @media screen and (max-width:640px) {
-     #desktop{
-        display: none;
-    }
-    .background-blanco-productos{
-        display: none;
-    }
-    .background-blanco{
-        display: none;
-    }
-    .background-blanco-sucursales{
+   #desktop{
     display: none;
-    }
+}
+.background-blanco-productos{
+    display: none;
+}
+.background-blanco{
+    display: none;
+}
+.background-blanco-sucursales{
+    display: none;
+}
 .background-blanco-contacto{
     display: none;
-    }
-    .background-menu {
+}
+.background-menu {
     background-color: #004c83;
     border-radius: 0 0 10px 10px;
-     border-bottom-left-radius: 10%; 
-     border-bottom-right-radius: 10%; 
-     z-index: 0; 
-     position: initial; 
+    border-bottom-left-radius: 10%; 
+    border-bottom-right-radius: 10%; 
+    z-index: 0; 
+    position: initial; 
     top: 0;
     width: 100%;
     left: 0;
     margin-bottom: 10px;
 }
+.texto-contacto-plasticos{
+        text-align: center;
+
+    }
 }
+
 @media screen and (max-width:668px) {
-    .shop-btn { padding: 15px 25px; font-size: 10px; }
+    .shop-btn { 
+        padding: 15px 25px;
+        font-size: 10px; 
+    }
     .background-blanco{
         display: none;
     }
@@ -97,8 +108,12 @@ CSS Queries
         margin-bottom: 10px;
     }
     .menu-mobile6{
-       margin-bottom: -10%;
-   }
+     margin-bottom: -10%;
+ }
+ .texto-contacto-plasticos{
+        text-align: center;
+
+    }
 
 }
 @media screen and (max-width:768px) {
@@ -110,14 +125,19 @@ CSS Queries
     .background-blanco{
         display: none;
     }
+    .background-blanco-contacto {
+        display: none;
+    }
 
     /*Contacto*/
     .titulo-contactanos{
         font-size: 24px;   
     }
     .vasito-plasticos-centauro{
-        width: 25%;
-        margin-top: -18%;
+        width: 15%;
+        margin-top: -10%;
+        margin-bottom: -4%;
+
     }
     .top-logo-letras {
         text-align: center ;
@@ -145,14 +165,14 @@ CSS Queries
         margin-bottom: 10px;
     }
     .menu-mobile6{
-       margin-bottom: -9%;
-   }
-   .texto-footer-plasticos {
+     margin-bottom: -6%;
+ }
+ .texto-footer-plasticos {
     font-size: 14px;
     text-align: center;
-        line-height: 12px;
+    line-height: 12px;
     float: none;
-  
+
 }
 .texto-footer-pasta {
     font-size: 14px;
@@ -162,9 +182,8 @@ CSS Queries
     text-align: center;
 }
 .img-footer-facebook {
-text-align: center;
-position: absolute; 
-    float: none !important;
+    position: absolute;
+    margin-left: 29%;
 }
 
 
@@ -172,7 +191,10 @@ position: absolute;
 
 
 @media screen and (max-width:1200px) {
-   .background-blanco{
+ .background-blanco{
+    display: none;
+}
+.background-blanco-contacto {
     display: none;
 }
 .background-menu {
@@ -187,9 +209,6 @@ position: absolute;
     left: 0;
     margin-bottom: 10px;
 }
-
-
-
 p{font-size: 14px; }
 .thin-sep { display: none; }
 .arrow { display: none; }
@@ -215,48 +234,59 @@ nav ul li.dot { display: none; }
     .pullcontainer { width: 100%; text-align: right; padding: 20px 20px 0 0; }
     .pullcontainer a#pull { display: block; width: 100%; color: #242a2c; }
     .background-menu {
-    background-color: #004c83;
-    border-radius: 0 0 10px 10px;
-    border-bottom-left-radius: 10%; 
-    border-bottom-right-radius: 10%; 
-    z-index: 0; 
-    position: initial; 
-    top: 0;
-    width: 100%;
-    left: 0;
-    margin-bottom: 10px;
-}
+        background-color: #004c83;
+        border-radius: 0 0 10px 10px;
+        border-bottom-left-radius: 10%; 
+        border-bottom-right-radius: 10%; 
+        z-index: 0; 
+        position: initial; 
+        top: 0;
+        width: 100%;
+        left: 0;
+        margin-bottom: 10px;
+    }
 
     .responsive-logo { 
-    background: url(../img/logo-mobile-plasticos-centauro.png) no-repeat center center; 
-        width: 200px;
-    height: 34px;
-    position: absolute;
-    top: 20px;
-    left: 15%;
-}
-.top-logo-letras {
-    margin-left: -2%;
-}
-.texto-footer-plasticos {
-    font-size: 14px;
-  
-}
-.texto-footer-pasta {
-    font-size: 14px;
-}
-}
+        background: url(../img/logo-mobile-plasticos-centauro.png) no-repeat center center; 
+        width: 180px;
+        height: 59px;
+        position: absolute;
+        top: 1%;
+        left: 6%;
+    }
+    .top-logo-letras {
+        margin-left: -2%;
+    }
+    .texto-footer-plasticos {
+        font-size: 14px;
 
+    }
+    .texto-footer-pasta {
+        font-size: 14px;
+    }
+}
+@media (min-width:1280px){
+    .background-menu {
+
+        width: 87%;
+    }
+}
 @media (min-width:1367px){
     .background-menu {
-    background-color: #004c83;
-    border-radius: 0 0 10px 10px;
-    border-bottom-left-radius: 10%;
-    border-bottom-right-radius: 10%;
-    z-index: 1;
-    position: absolute;
-    top: 0; 
-    left: 376px;
-    width: 60.9%;
+        background-color: #004c83;
+        border-radius: 0 0 10px 10px;
+        border-bottom-left-radius: 10%;
+        border-bottom-right-radius: 10%;
+        z-index: 1;
+        position: absolute;
+        top: 0; 
+        left: 376px;
+        width: 60.9%;
+    }
+}
+@media (min-width:2280px){
+    .background-menu {
+        left: 24%;
+        width: 51.9%;
     }
 }
