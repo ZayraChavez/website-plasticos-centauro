@@ -1142,3 +1142,25 @@ section.sign_up {padding: 40px 0 110px 0;}
 .texto-campos-contacto{
 	font-family: "Helvetica";
 }
+
+.btn-descargar{
+    color: white;
+    font-family: "Helvetica";
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border: 0px solid #004b80;
+    padding: 2%;
+    background-color: #004A80;
+     margin-left: auto;
+  margin-right: auto;
+
+}
+.texto-descarga{
+	color: #004b80;
+	font-family: "Helvetica";
+	font-weight: bold;
+	text-align: center;
+	font-size: 20px;
+
+}

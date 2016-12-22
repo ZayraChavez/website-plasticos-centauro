@@ -6,7 +6,6 @@ CSS Queries
     .background-blanco{
         display: none;
     }
-
     /*Contacto*/
     .titulo-contactanos{
         font-size: 24px;   
@@ -26,6 +25,28 @@ CSS Queries
         text-align: center;
 
     }
+    .facebook-contacto {
+   display: none;
+}
+
+.facebook-contacto-mobile{
+    float: none;
+    width: 5%;
+    align-items: center;
+    position: center;
+    display: table;
+    margin: 0 auto;
+}
+.texto-contacto-plasticos {
+    text-align: center;
+}
+    
+.img-footer-facebook {
+    width: 30px !important;
+    margin-bottom: 7% !important;
+    float: none !important;
+    margin: 0 auto !important;
+}
 }
 
 
@@ -61,6 +82,12 @@ CSS Queries
         text-align: center;
 
     }
+    .img-footer-facebook {
+    width: 30px !important;
+    margin-bottom: 7% !important;
+    float: none !important;
+    margin: 0 auto !important;
+}
 }
 
 @media screen and (max-width:668px) {
@@ -114,7 +141,27 @@ CSS Queries
         text-align: center;
 
     }
+    .facebook-contacto {
+   display: none;
+}
 
+.facebook-contacto-mobile{
+    float: none;
+    width: 5%;
+    align-items: center;
+    position: center;
+    display: table;
+    margin: 0 auto;
+}
+.texto-contacto-plasticos {
+    text-align: center;
+}
+.img-footer-facebook {
+    width: 30px !important;
+    margin-bottom: 7% !important;
+    float: none !important;
+    margin: 0 auto !important;
+}
 }
 @media screen and (max-width:768px) {
     .shop-btn { 
@@ -169,6 +216,7 @@ CSS Queries
  }
  .texto-footer-plasticos {
     font-size: 14px;
+        margin-top: 2%;
     text-align: center;
     line-height: 12px;
     float: none;
@@ -181,17 +229,39 @@ CSS Queries
 .acomodo-iconos-pasta{
     text-align: center;
 }
-.img-footer-facebook {
-    position: absolute;
-    margin-left: 29%;
+
+.facebook-contacto {
+   display: none;
 }
 
-
+.facebook-contacto-mobile{
+    float: none;
+    width: 5%;
+    align-items: center;
+    position: center;
+    display: table;
+    margin: 0 auto;
+}
+.texto-contacto-plasticos {
+    text-align: center;
+}
+.img-footer-facebook {
+    width: 30px !important;
+    margin-bottom: 7% !important;
+    float: none !important;
+    margin: 0 auto !important;
+}
 }
 
 
 @media screen and (max-width:1200px) {
  .background-blanco{
+    display: none;
+}
+.background-blanco-contacto {
+    display: none;
+}
+.background-blanco-sucursales {
     display: none;
 }
 .background-blanco-contacto {
@@ -259,6 +329,7 @@ nav ul li.dot { display: none; }
     }
     .texto-footer-plasticos {
         font-size: 14px;
+            margin-top: 2%;
 
     }
     .texto-footer-pasta {
